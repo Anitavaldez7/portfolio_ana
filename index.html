@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <!-- set the character set -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- first step to a responsive site -->
+    <title>Flexbox styling</title>
+
+    <!-- FONT AWESOME -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Your styles should be called here -->
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      	<![endif]-->
+  </head>
+
+  <body>
+    <!-- YOUR CONTENT GOES HERE -->
+    <div class="container">
+      <section class="top">
+
+        <h1>Ana Valdez Saravia</h1>
+        <h2>I am a New York Ciy based bilingual and broadcasting journalist. </h2>
+      </section>
+
+      <!-- <section class="photo"> -->
+
+      <figure>
+        <img class="main_img" src="images/Anita journalism.jpg">
+        <figcaption> Headshot at the Craig Newmark Graduate School of Journalism at CUNY <span class="credit">Photo Credit: Peter Senzamici</span></figcaption>
+      </figure>
+
+      <section class="text">
+        <p>I was born and raised in La Paz, Bolivia and I did my undergraduate at Emporia State University, where I had the opportunity to intern with the local radio KVOE and produced their first Spanish news program. The radio became the first bilingual news media across east-central and northeast Kansas.  </p>
+
+        <p>My beat is on immigration and community reporting and I love storytelling in different platforms like audio, video and print. I also did investigative journalism, which earned me Second Place in Investigative/ In-Depth news writing by the Kansas Collegiate Media in 2022 for collaborative work with Report for America.
+ </p>
+
+        <p>Currently, I am doing my master's in bilingual journalism at the Craig Newmark School of Journalism at CUNY and I am covering the Hispanic/Latine community in the South Bronx. </p>
+        
+      </section>
+
+      <h3 class="flex-hed">CHECK MY PORTFOLIO </h3> <!-- broke the subhed out of text to correct alignment based on mock -->
+
+      <section class="flex">
+        <!-- flex box refers to the box that contains the "flexed" content -->
+        
+        <section class="img_holder">
+          <!-- each img_holder is flexed content -->
+          
+          <a href="http://www.esubulletin.com/news/covid-complications-campus-food-pantries-and-the-battle-against-food-insecurity/article_6861eadc-835d-11eb-a93d-071cc3ac0a75.html">COVID complications: Campus food pantries and the battle against food insecurity</a>
+
+          <figure class="sub_img">
+            
+            <img class="small" src="images/covid.jpg"> <!-- You should crop your images to be the same size before using them, otherwise, even with flex box, they come out uneven -->
+
+            <figcaption class="sub_cap"> Students in the food pantry at Emporia State University <span class="credit">Credit: The Bulletin </span></figcaption>
+          
+          </figure>
+          <section class="sub_text">
+            <p>An investigative series of how universities in the Midwest handled food insecurity post-pandemic. Through open records, we dive into the system of 18 universities to know what they were doing to combat food insecurity on their campuses, if the cost of attendance was fair given the resources provided by the institutions, and how students felt about it.
+            </p>
+
+          </section>
+
+        </section>
+
+
+        <section class="img_holder">
+          <figure class="sub_img">
+
+            <a href="https://kvoe.com/2023/01/26/211644/">Emporia Spanish Speakers is mobilizing to bring its Spanish learning program to more communities in Kansas </a>
+            <img class="main_img" src="images/emporiaspanish.jpeg">
+            <figcaption class="sub_cap">Company logo of Emporia Spanish Speakers <span class="credit">Credit: Emporia Spanish Speakers</span></figcaption>
+          </figure>
+          <section class="sub_text">
+            <p>One of the highlights of my journalistic career was producing the first Spanish news program on the local Radio of the city of Emporia, which gave space to different organizations that were already trying to make the city a bilingual one. Emporia Spanish Speakers is an organization that thrives for it. </p>
+          </section>
+        </section>
+
+
+        <section class="img_holder">
+          <figure class="sub_img">
+            
+            <a href="https://open.spotify.com/show/5yoa5IMjK5bLRsT7D967fe?si=af8cb158593a4bdb">ESUnited Podcast</a>
+
+            <img class="main_img" src="images/DSP.jpg">
+           
+            <figcaption class="sub_cap">Cover of ESUnited <span class="credit">Credit: Emporia State University marketing team</span></figcaption>
+          </figure>
+          <section class="sub_text">
+            <p>On the audio side, I love doing podcasts and actually, that is the way I started doing journalism and storytelling. ESUnited Podcast is a project created alongside the Office of Diversity Student Programs at Emporia State University to give students a space to talk about diversity and inclusion and why is important that universities have more space to focus on it. </p>
+          </section>
+        
+        </section>
+
+      </section>
+      <!-- this ^ closes the flex box section -->
+
+    </div>
+
+    <!-- When you get to using javascript, you'll want to link to it at the bottom of the document, still inside the body. That's for later. -->
+    <!-- the jQuery library. You need this to be able to use jQuery ($) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Your javascript should be called here -->
+
+  </body>
+
+</html>
